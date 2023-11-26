@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>RTS template</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>38p1xwgrr4nwy</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>800</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Off</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Map 1">
+            <object-type name="pohon_atas" sid="700540523559538">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="891266817375175">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+            </object-type>
+            <object-type name="pohon_bawah" sid="355352992744278">
+                <plugin id="TiledBg" />
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+            </object-type>
+            <object-type name="pohon_kanan" sid="180198039571954">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="676473365980463">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+            </object-type>
+            <object-type name="pohon_kiri" sid="754946112980104">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="753636171469931">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+            </object-type>
+            <object-type name="pohon_main" sid="134828065884456">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="780597331558394">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+            </object-type>
+            <object-type name="Sprite10" sid="783542511038698">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111711650035197" speed="5">
+                        <frame duration="1" hotspotX="3.16667" hotspotY="-0.125" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.25" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite11" sid="187881367638537">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="425383213554906">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122880701751544" speed="5">
+                        <frame duration="1" hotspotX="1.16667" hotspotY="0.833333" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.833333" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite27" sid="499982527029622">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231352180773461" speed="5">
+                        <frame duration="1" hotspotX="0.53125" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite4" sid="723479617037827">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="396191918687577" speed="5">
+                        <frame duration="1" hotspotX="5.5" hotspotY="1.5" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite29" sid="798437018455588">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="407746768562754" speed="5">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite28" sid="841958000220253">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824840226108833" speed="5">
+                        <frame duration="1" hotspotX="3.16667" hotspotY="-0.125" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.25" />
+                                <point x="1" y="0" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Map" sid="128962661740065">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990689030500140" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\mini map.PNG" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="jalan" sid="837819286575085">
+                <plugin id="TiledBg" />
+                <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\Title_Image.png" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Enemy">
+            <object-type name="Enemy1Base" sid="373152032933913">
+                <plugin id="Sprite" />
+                <container>
+                    <type>Enemy1Base</type>
+                    <type>Enemy1Turret</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1819145015618492" speed="5">
+                        <frame duration="1" hotspotX="0.421875" hotspotY="0.5" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TANK\PNG\Hulls_Color_A\Hull_02.png">
+                            <collision-poly>
+                                <point x="1" y="0.0227273" />
+                                <point x="0.992248" y="0.5" />
+                                <point x="1" y="0.971591" />
+                                <point x="0.503876" y="0.982955" />
+                                <point x="0.00775194" y="0.914773" />
+                                <point x="0.00775194" y="0.494318" />
+                                <point x="0.00775194" y="0.0909091" />
+                                <point x="0.503876" y="0.0170455" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy1Turret" sid="5723797905349928">
+                <plugin id="Sprite" />
+                <container>
+                    <type>Enemy1Base</type>
+                    <type>Enemy1Turret</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6825573019679599" speed="5">
+                        <frame duration="1" hotspotX="0.34375" hotspotY="0.5" original-source="C:\Users\setrip\Desktop\tes.png">
+                            <image-point name="Imagepoint 1" x="0.5" y="1.03125" />
+                            <collision-poly>
+                                <point x="0.855263" y="0.383721" />
+                                <point x="1" y="0.5" />
+                                <point x="0.855263" y="0.616279" />
+                                <point x="0.5" y="0.860465" />
+                                <point x="0.118421" y="0.686047" />
+                                <point x="0" y="0.5" />
+                                <point x="0.118421" y="0.313953" />
+                                <point x="0.5" y="0.139535" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy1Projectile" sid="5170546284188723">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2565785295913805" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy1Base2" sid="121163446463914">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="577368849278474">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>Enemy1Turret2</type>
+                    <type>Enemy1Base2</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791535481980782" speed="5">
+                        <frame duration="1" hotspotX="0.421875" hotspotY="0.5" original-source="C:\Users\setrip\Desktop\Untitled.png">
+                            <collision-poly>
+                                <point x="1" y="0.0227273" />
+                                <point x="0.992248" y="0.5" />
+                                <point x="1" y="0.971591" />
+                                <point x="0.503876" y="0.982955" />
+                                <point x="0.00775194" y="0.914773" />
+                                <point x="0.00775194" y="0.494318" />
+                                <point x="0.00775194" y="0.0909091" />
+                                <point x="0.503876" y="0.0170455" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy1Turret2" sid="221374133672950">
+                <plugin id="Sprite" />
+                <container>
+                    <type>Enemy1Turret2</type>
+                    <type>Enemy1Base2</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332662349960936" speed="5">
+                        <frame duration="1" hotspotX="0.34375" hotspotY="0.5" original-source="C:\Users\setrip\Downloads\Untitled.png">
+                            <image-point name="Imagepoint 1" x="0.5" y="1.03125" />
+                            <collision-poly>
+                                <point x="0.855263" y="0.383721" />
+                                <point x="1" y="0.5" />
+                                <point x="0.855263" y="0.616279" />
+                                <point x="0.5" y="0.860465" />
+                                <point x="0.118421" y="0.686047" />
+                                <point x="0" y="0.5" />
+                                <point x="0.118421" y="0.313953" />
+                                <point x="0.5" y="0.139535" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="TiledBackground" sid="7463420236188906">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+        </object-type>
+        <object-type name="Tank1Base" sid="3799952160083363">
+            <plugin id="Sprite" />
+            <container>
+                <type>Tank1Turret</type>
+                <type>Tank1Base</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8101754161829645" speed="5">
+                    <frame duration="1" hotspotX="0.484375" hotspotY="0.515625" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TANK\PNG\Hulls_Color_D\Hull_06.png">
+                        <collision-poly>
+                            <point x="1" y="0.195313" />
+                            <point x="1" y="0.503906" />
+                            <point x="1" y="0.8125" />
+                            <point x="0" y="0.816406" />
+                            <point x="0" y="0.496094" />
+                            <point x="0" y="0.199219" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tank1Turret" sid="7977983214675803">
+            <plugin id="Sprite" />
+            <container>
+                <type>Tank1Turret</type>
+                <type>Tank1Base</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7764849880030356" speed="5">
+                    <frame duration="1" hotspotX="0.25" hotspotY="0.53125" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TANK\PNG\Weapon_Color_D\Gun_01.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="1.03125" />
+                        <collision-poly>
+                            <point x="0.830189" y="0.382979" />
+                            <point x="1" y="0.5" />
+                            <point x="0.830189" y="0.617021" />
+                            <point x="0.400943" y="0.914894" />
+                            <point x="0.0330189" y="0.925532" />
+                            <point x="0" y="0.5" />
+                            <point x="0.0330189" y="0.0744681" />
+                            <point x="0.415094" y="0.0638298" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectionBox" sid="1598085409317308">
+            <plugin id="NinePatch" />
+            <texture />
+        </object-type>
+        <object-type name="Touch" sid="9602186304364172">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="UnitSelectionBox" sid="6904897740464898">
+            <plugin id="NinePatch" />
+            <texture />
+        </object-type>
+        <object-type name="Mouse" sid="4748190568632052">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Tank1Projectile" sid="8246206675235316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8250640630440535" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BigExplosion" sid="9078879521271244">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="40" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8057323624632586" speed="15">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.471264" />
+                    <frame duration="1" hotspotX="0.488889" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.494624" hotspotY="0.494624" />
+                    <frame duration="1" hotspotX="0.494845" hotspotY="0.494845" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.495413" hotspotY="0.495413" />
+                    <frame duration="1" hotspotX="0.495575" hotspotY="0.495575" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.495798" hotspotY="0.495798" />
+                    <frame duration="1" hotspotX="0.495868" hotspotY="0.495868" />
+                    <frame duration="1" hotspotX="0.495935" hotspotY="0.495935" />
+                    <frame duration="1" hotspotX="0.496" hotspotY="0.496" />
+                    <frame duration="1" hotspotX="0.496063" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496063" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.496124" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496124" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496063" hotspotY="0.496063" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.496" hotspotY="0.496" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.423529" hotspotY="0.505747" />
+                    <frame duration="1" hotspotX="0.416667" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.421687" hotspotY="0.505747" />
+                    <frame duration="1" hotspotX="0.414634" hotspotY="0.581081" />
+                    <frame duration="1" hotspotX="1.13793" hotspotY="0.977273" />
+                    <frame duration="1" hotspotX="2.33333" hotspotY="8.66667" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SmallExplosion" sid="5111837494184647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5965221794471932" speed="17">
+                    <frame duration="1" hotspotX="0.466667" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.473684" hotspotY="0.527273" />
+                    <frame duration="1" hotspotX="0.492063" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.491803" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TurretFireParticles" sid="6488842484732708">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite" sid="9183451647094709">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4851146602270126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="231490371418467">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365224852068759" speed="5">
+                    <frame duration="1" hotspotX="3.167" hotspotY="1.16667" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\49005631.jpg">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="576132550116188">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+        </object-type>
+        <object-type name="Sprite3" sid="126733999574435">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101915844756101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground4" sid="887899145550239">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+        </object-type>
+        <object-type name="Sprite5" sid="103162311642181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829037561031679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground9" sid="750435165767839">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\Title_Image.png" />
+        </object-type>
+        <object-type name="Sprite7" sid="462547601416969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709415571435241" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="622899908879853">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379723013338284" speed="5">
+                    <frame duration="1" hotspotX="-0.242424" hotspotY="0.72" original-source="E:\KULIAH S1\Semester 7\Gamedev\TA\asset TA\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.72" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="220360891835467">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570786406878101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="918143937600734">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463009987051295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MapFrame" sid="288965782136497">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855217671171696" speed="5">
+                    <frame duration="1" hotspotX="0.507625" hotspotY="0.501416" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="238006904754354">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378793353475632" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="578074738867682">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364432760027586" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Forest\PNG\top-down-forest-tileset.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="230912855959377">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="118694972723827">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="412223572005962">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="872591129115518">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite6" sid="895282399570777">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="171793809316557">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539885589733158" speed="5">
+                    <frame duration="1" hotspotX="1.37037" hotspotY="1.39683" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0.730159" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="223333798326610">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149880087750461" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0.298077" />
+                            <point x="0.708333" y="0.538462" />
+                            <point x="0.958333" y="0.5" />
+                            <point x="0.791667" y="0.615385" />
+                            <point x="0.5" y="0.692308" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground7" sid="567649621009956">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="210568239166228">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite17" sid="805237298333493">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="342999911510583">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="396706093995453" speed="5">
+                    <frame duration="1" hotspotX="7" hotspotY="-1.25" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="140460340430170">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="279142944395475">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186317047495393" speed="5">
+                    <frame duration="1" hotspotX="0.6875" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite19" sid="123873484739923">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916387500577251" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.310345" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.448276" />
+                            <point x="1" y="0.172414" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="290496542128519">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743002791283558" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.622047" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0.291339" />
+                            <point x="1" y="0.685039" />
+                            <point x="1" y="0.622047" />
+                            <point x="1" y="0.811024" />
+                            <point x="0" y="0.937008" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="372697971807133">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910698327701060" speed="5">
+                    <frame duration="1" hotspotX="-6" hotspotY="0.166667" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0.333333" />
+                            <point x="1" y="0.166667" />
+                            <point x="1" y="0.666667" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground8" sid="129845512324424">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite22" sid="108103048822553">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273839798444321" speed="5">
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.4375" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0.875" />
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="586223894400807">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296321370775939" speed="5">
+                    <frame duration="1" hotspotX="0.428571" hotspotY="0.4375" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground10" sid="582872731091795">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite24" sid="296846688625138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512239901092086" speed="5">
+                    <frame duration="1" hotspotX="0.476563" hotspotY="0.785156" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Sci-Fi Patreon Collection\top-down-space-environment\PNG\layers\stage-back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="888754363533027">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779673023661289" speed="5">
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.507937" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Sci-Fi Patreon Collection\top-down-space-environment\PNG\layers\cut-out-sprites\asteroid-01.png">
+                        <collision-poly>
+                            <point x="0.253731" y="0.269841" />
+                            <point x="0.492537" y="0.15873" />
+                            <point x="0.731343" y="0.285714" />
+                            <point x="0.865672" y="0.492063" />
+                            <point x="0.761194" y="0.746032" />
+                            <point x="0.492537" y="0.857143" />
+                            <point x="0.253731" y="0.730159" />
+                            <point x="0.134328" y="0.492063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="959904720873744">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Sci-Fi Patreon Collection\top-down-space-environment\PNG\layers\cut-out-sprites\asteroid-04.png" />
+        </object-type>
+        <object-type name="TiledBackground13" sid="729055081795357">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Sci-Fi Patreon Collection\top-down-space-environment\PNG\layers\cut-out-sprites\asteroid-05.png" />
+        </object-type>
+        <object-type name="TiledBackground11" sid="355265645162450">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground12" sid="585787544686221">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground14" sid="774783945286500">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="Sprite26" sid="723155237388076">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="749714348824134" speed="5">
+                    <frame duration="1" hotspotX="5.64103" hotspotY="1.53846" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground15" sid="297553333304341">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground16" sid="918440982919375">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground17" sid="559049391387394">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground18" sid="888754552517622">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite30" sid="465464082702501">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566700283804304" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground19" sid="953782170327599">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png" />
+        </object-type>
+        <object-type name="Sprite31" sid="571762657888973">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="109120968255790" speed="5">
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.625" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="146891829254249">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757859446344491" speed="5">
+                    <frame duration="1" hotspotX="0.466667" hotspotY="0.483871" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.516129" />
+                            <point x="1" y="0.258065" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="442878195616748">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631499661923067" speed="5">
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.46875" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite34" sid="366500611753493">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="419675838212739" speed="5">
+                    <frame duration="1" hotspotX="0.535714" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite35" sid="966718651709525">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357868717598639" speed="5">
+                    <frame duration="1" hotspotX="0.555556" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite36" sid="670302195182795">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891302327708714" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.555556" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\Top-Down-Town\PNG\top-down-town-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground20" sid="357895928783886">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground21" sid="306119625483367">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="Sprite37" sid="653069825866116">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760709641200102" speed="5">
+                    <frame duration="1" hotspotX="3.625" hotspotY="1.5625" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite38" sid="299733724893704">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218754839941007" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.460317" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite39" sid="946163065199718">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883430361734095" speed="5">
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.46875" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite40" sid="750039833116514">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106410518223977" speed="5">
+                    <frame duration="1" hotspotX="-0.25" hotspotY="0.833333" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.5" y="0.833333" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite41" sid="729320559744129">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="456632424650359" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground22" sid="417500043587690">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="Sprite42" sid="657741268517083">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952321063816680" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite43" sid="453961221050443">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443723445113922" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.539683" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite44" sid="548369803385824">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570719928848570" speed="5">
+                    <frame duration="1" hotspotX="0.548387" hotspotY="0.516129" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite45" sid="458733408291847">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492355647599382" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.894737" y="0.222222" />
+                            <point x="0.578947" y="0.5" />
+                            <point x="0.947368" y="0.888889" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground23" sid="171044988670848">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground24" sid="733890359351593">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+        <object-type name="TiledBackground25" sid="392111921835546">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="FriendlyBases" plugin-id="Sprite" sid="7520132423419644">
+            <members>
+                <member>Tank1Base</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="IsSelected" sid="4761468560282905" type="boolean" />
+                <instance-variable name="TurretUID" sid="1193251156871943" type="number" />
+                <instance-variable name="Health" sid="1958246738260916" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="5909494102166296">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="FriendlyTurrets" plugin-id="Sprite" sid="31885644491198">
+            <members>
+                <member>Tank1Turret</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="BaseUID" sid="1544964713239611" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Turret" sid="8419281922105964">
+                    <behavior id="Turret" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="8446957755207139">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="EnemyBases" plugin-id="Sprite" sid="6245834377255653">
+            <members>
+                <member>Enemy1Base</member>
+                <member>Enemy1Base2</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="TurretUID" sid="5382933024573614" type="number" />
+                <instance-variable name="Health" sid="7355417050338355" type="number" />
+                <instance-variable name="IsPatrolling" sid="5714273204624839" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="3191625473423441">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="3828915404456433">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="EnemyTurrets" plugin-id="Sprite" sid="4998507286709371">
+            <members>
+                <member>Enemy1Turret</member>
+                <member>Enemy1Turret2</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="BaseUID" sid="2334031749559058" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Turret" sid="9923579165516965">
+                    <behavior id="Turret" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="7130922140046136">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="FriendlyProjectiles" plugin-id="Sprite" sid="6982299143669281">
+            <members>
+                <member>Tank1Projectile</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Range" sid="5244454757165124" type="number" />
+                <instance-variable name="Damage" sid="6110274462212933" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="1361375000081355">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="7935436549850445">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="2066377973397259">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="EnemyProjectiles" plugin-id="Sprite" sid="6088844161181972">
+            <members>
+                <member>Enemy1Projectile</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Range" sid="8492373584374202" type="number" />
+                <instance-variable name="Damage" sid="8697061222989493" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="5116255687724032">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="1353560608352791">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="901520357014216">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="FriendlyBases2" plugin-id="Sprite" sid="232908581512566">
+            <members>
+                <member>Tank1Base</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Forest_lv1.xml</layout>
+        <layout>Town_lv5.xml</layout>
+        <layout>dungeon_lv100.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="11">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="12" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="loading-logo.png" />
+            <file name="icon-256.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
