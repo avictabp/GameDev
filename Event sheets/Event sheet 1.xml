@@ -864,26 +864,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="331258685699221">
-            <conditions>
-                <condition id="-8" name="Compare two values" sid="834377768893454" type="System">
-                    <param id="0" name="First value">ProgressBarTankbase.Count</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Second value">Enemy1Base.Count</param>
-                </condition>
-                <condition id="-12" name="Repeat" sid="953274095669675" type="System">
-                    <param id="0" name="Count">Enemy1Base.Count</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="932195368281716" type="System">
-                    <param id="0" name="Object to create">ProgressBarEnemy</param>
-                    <param id="1" name="Layer">&quot;Bases&quot;</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="738614777752032">
             <conditions>
                 <condition id="-1" name="Every tick" sid="349122725326198" type="System" />
