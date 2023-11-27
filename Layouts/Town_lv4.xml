@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Forest_lv1</name>
-    <sid>3662133639865159</sid>
+    <name>Town_lv4</name>
+    <sid>208829581344920</sid>
     <event-sheet>Event sheet 1</event-sheet>
     <size>
         <width>1280</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Background" sid="2654393316150805">
+        <layer name="Background" sid="808161987826622">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="0">
+                <instance type="TiledBackground" uid="638">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="20">
+                <instance type="pohon_main" uid="639">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -76,7 +76,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="23">
+                <instance type="pohon_atas" uid="640">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -103,7 +103,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="21">
+                <instance type="pohon_kiri" uid="641">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -130,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="4">
+                <instance type="pohon_main" uid="642">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -157,7 +157,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="24">
+                <instance type="pohon_bawah" uid="643">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -177,7 +177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="25">
+                <instance type="pohon_kiri" uid="644">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -204,7 +204,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kanan" uid="6">
+                <instance type="pohon_kanan" uid="645">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -231,7 +231,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="7">
+                <instance type="Sprite5" uid="646">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -253,7 +253,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="10">
+                <instance type="Sprite5" uid="647">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -275,7 +275,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="13">
+                <instance type="Sprite5" uid="648">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -297,7 +297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="14">
+                <instance type="pohon_main" uid="649">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -324,7 +324,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="15">
+                <instance type="pohon_bawah" uid="650">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -344,7 +344,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="16">
+                <instance type="pohon_kiri" uid="651">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -371,7 +371,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="17">
+                <instance type="pohon_main" uid="652">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -398,7 +398,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="18">
+                <instance type="pohon_bawah" uid="653">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -418,7 +418,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="19">
+                <instance type="pohon_kiri" uid="654">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -445,7 +445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="26">
+                <instance type="pohon_atas" uid="655">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -472,7 +472,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="27">
+                <instance type="pohon_main" uid="656">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -499,7 +499,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="28">
+                <instance type="pohon_kiri" uid="657">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -526,7 +526,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="29">
+                <instance type="pohon_main" uid="658">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -553,7 +553,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="34">
+                <instance type="pohon_kiri" uid="659">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -580,7 +580,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="35">
+                <instance type="pohon_main" uid="660">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -607,7 +607,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="38">
+                <instance type="pohon_bawah" uid="661">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -627,7 +627,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="39">
+                <instance type="pohon_kiri" uid="662">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -654,7 +654,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="40">
+                <instance type="pohon_atas" uid="663">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -681,7 +681,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="36">
+                <instance type="pohon_main" uid="664">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -708,7 +708,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="37">
+                <instance type="pohon_bawah" uid="665">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -728,7 +728,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kanan" uid="41">
+                <instance type="pohon_kanan" uid="666">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -755,7 +755,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="46">
+                <instance type="pohon_main" uid="667">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -782,7 +782,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_bawah" uid="47">
+                <instance type="pohon_bawah" uid="668">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -802,7 +802,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kanan" uid="48">
+                <instance type="pohon_kanan" uid="669">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -829,7 +829,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="49">
+                <instance type="pohon_atas" uid="670">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -856,7 +856,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="42">
+                <instance type="pohon_main" uid="671">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -883,7 +883,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_main" uid="43">
+                <instance type="pohon_main" uid="672">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -910,7 +910,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kanan" uid="50">
+                <instance type="pohon_kanan" uid="673">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -937,7 +937,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kanan" uid="51">
+                <instance type="pohon_kanan" uid="674">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -964,7 +964,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="52">
+                <instance type="pohon_atas" uid="675">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -991,7 +991,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="53">
+                <instance type="pohon_kiri" uid="676">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1018,7 +1018,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="54">
+                <instance type="pohon_atas" uid="677">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1045,7 +1045,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_atas" uid="55">
+                <instance type="pohon_atas" uid="678">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1072,7 +1072,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pohon_kiri" uid="56">
+                <instance type="pohon_kiri" uid="679">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1099,7 +1099,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="57">
+                <instance type="jalan" uid="680">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1119,7 +1119,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="58">
+                <instance type="jalan" uid="681">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1139,7 +1139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="59">
+                <instance type="jalan" uid="682">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1159,7 +1159,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="60">
+                <instance type="jalan" uid="683">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1179,7 +1179,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="61">
+                <instance type="jalan" uid="684">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1199,7 +1199,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="62">
+                <instance type="jalan" uid="685">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1219,7 +1219,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="63">
+                <instance type="jalan" uid="686">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1239,7 +1239,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="64">
+                <instance type="jalan" uid="687">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1259,7 +1259,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="65">
+                <instance type="jalan" uid="688">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1279,7 +1279,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="72">
+                <instance type="jalan" uid="689">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1299,7 +1299,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="73">
+                <instance type="jalan" uid="690">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1319,7 +1319,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="78">
+                <instance type="jalan" uid="691">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1339,7 +1339,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="79">
+                <instance type="jalan" uid="692">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1359,7 +1359,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="80">
+                <instance type="jalan" uid="693">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1379,7 +1379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="81">
+                <instance type="jalan" uid="694">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1399,7 +1399,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="86">
+                <instance type="jalan" uid="695">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1419,7 +1419,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="87">
+                <instance type="jalan" uid="696">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1439,7 +1439,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="88">
+                <instance type="jalan" uid="697">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1459,7 +1459,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="89">
+                <instance type="jalan" uid="698">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1479,7 +1479,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="90">
+                <instance type="jalan" uid="699">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1499,7 +1499,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="91">
+                <instance type="jalan" uid="700">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1519,7 +1519,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="92">
+                <instance type="jalan" uid="701">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1539,7 +1539,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="93">
+                <instance type="jalan" uid="702">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1559,7 +1559,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jalan" uid="94">
+                <instance type="jalan" uid="703">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1579,7 +1579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="22">
+                <instance type="Sprite8" uid="704">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1601,7 +1601,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="96">
+                <instance type="Sprite8" uid="705">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1623,7 +1623,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="97">
+                <instance type="Sprite8" uid="706">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1645,7 +1645,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="99">
+                <instance type="Sprite11" uid="707">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1674,7 +1674,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="285">
+                <instance type="Sprite8" uid="708">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1696,7 +1696,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="286">
+                <instance type="Sprite27" uid="709">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1718,7 +1718,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="287">
+                <instance type="Sprite27" uid="710">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1740,7 +1740,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="288">
+                <instance type="Sprite27" uid="711">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1762,7 +1762,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="289">
+                <instance type="Sprite27" uid="712">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1784,7 +1784,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="290">
+                <instance type="Sprite27" uid="713">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1806,7 +1806,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="291">
+                <instance type="Sprite27" uid="714">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1828,7 +1828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="292">
+                <instance type="Sprite27" uid="715">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1850,7 +1850,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="293">
+                <instance type="Sprite27" uid="716">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1872,7 +1872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="294">
+                <instance type="Sprite27" uid="717">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1894,7 +1894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="295">
+                <instance type="Sprite27" uid="718">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1916,7 +1916,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="296">
+                <instance type="Sprite27" uid="719">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1938,7 +1938,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="297">
+                <instance type="Sprite27" uid="720">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1960,7 +1960,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="298">
+                <instance type="Sprite5" uid="721">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1982,7 +1982,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="299">
+                <instance type="Sprite5" uid="722">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2004,7 +2004,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="300">
+                <instance type="Sprite8" uid="723">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2026,7 +2026,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="301">
+                <instance type="Sprite5" uid="724">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2048,7 +2048,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="302">
+                <instance type="Sprite27" uid="725">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2070,7 +2070,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="303">
+                <instance type="Sprite27" uid="726">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2092,7 +2092,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="304">
+                <instance type="Sprite27" uid="727">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2114,7 +2114,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="305">
+                <instance type="Sprite11" uid="728">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2143,7 +2143,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="306">
+                <instance type="Sprite27" uid="729">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2165,7 +2165,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="307">
+                <instance type="Sprite8" uid="730">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2187,7 +2187,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="308">
+                <instance type="Sprite27" uid="731">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2209,7 +2209,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="309">
+                <instance type="Sprite27" uid="732">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2231,7 +2231,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="310">
+                <instance type="Sprite27" uid="733">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2253,7 +2253,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="311">
+                <instance type="Sprite27" uid="734">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2275,7 +2275,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="312">
+                <instance type="Sprite27" uid="735">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2297,7 +2297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="313">
+                <instance type="Sprite27" uid="736">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2319,7 +2319,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="314">
+                <instance type="Sprite8" uid="737">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2341,7 +2341,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite28" uid="315">
+                <instance type="Sprite28" uid="738">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2363,7 +2363,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite29" uid="316">
+                <instance type="Sprite29" uid="739">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2385,7 +2385,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="317">
+                <instance type="Sprite8" uid="740">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2407,7 +2407,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="318">
+                <instance type="Sprite27" uid="741">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2429,7 +2429,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="319">
+                <instance type="Sprite27" uid="742">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2451,7 +2451,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="320">
+                <instance type="Sprite27" uid="743">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2473,7 +2473,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="321">
+                <instance type="Sprite11" uid="744">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2502,7 +2502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="322">
+                <instance type="Sprite27" uid="745">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2524,7 +2524,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="323">
+                <instance type="Sprite8" uid="746">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2546,7 +2546,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="325">
+                <instance type="Sprite5" uid="747">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2568,7 +2568,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="326">
+                <instance type="Sprite5" uid="748">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2590,7 +2590,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="327">
+                <instance type="Sprite5" uid="749">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2612,7 +2612,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="328">
+                <instance type="Sprite5" uid="750">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2634,7 +2634,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="329">
+                <instance type="Sprite27" uid="751">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2656,7 +2656,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="330">
+                <instance type="Sprite27" uid="752">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2678,7 +2678,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="331">
+                <instance type="Sprite27" uid="753">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2700,7 +2700,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="332">
+                <instance type="Sprite27" uid="754">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2722,7 +2722,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="324">
+                <instance type="Sprite27" uid="755">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2744,7 +2744,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="333">
+                <instance type="Sprite27" uid="756">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2766,7 +2766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="334">
+                <instance type="Sprite27" uid="757">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2788,7 +2788,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="335">
+                <instance type="Sprite27" uid="758">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2810,7 +2810,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="336">
+                <instance type="Sprite27" uid="759">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2832,7 +2832,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="337">
+                <instance type="Sprite27" uid="760">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2854,7 +2854,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="338">
+                <instance type="Sprite5" uid="761">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2876,7 +2876,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="339">
+                <instance type="Sprite5" uid="762">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2898,7 +2898,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="340">
+                <instance type="Sprite27" uid="763">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2920,7 +2920,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="341">
+                <instance type="Sprite27" uid="764">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2942,7 +2942,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="342">
+                <instance type="Sprite27" uid="765">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2964,7 +2964,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="343">
+                <instance type="Sprite27" uid="766">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2986,7 +2986,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="344">
+                <instance type="Sprite27" uid="767">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3008,7 +3008,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="345">
+                <instance type="Sprite27" uid="768">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3030,7 +3030,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="346">
+                <instance type="Sprite27" uid="769">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3052,7 +3052,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="347">
+                <instance type="Sprite27" uid="770">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3074,7 +3074,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="348">
+                <instance type="Sprite27" uid="771">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3096,7 +3096,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="349">
+                <instance type="Sprite8" uid="772">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3118,7 +3118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="350">
+                <instance type="Sprite5" uid="773">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3140,7 +3140,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="351">
+                <instance type="Sprite5" uid="774">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3162,7 +3162,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="352">
+                <instance type="Sprite27" uid="775">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3184,7 +3184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="353">
+                <instance type="Sprite27" uid="776">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3206,7 +3206,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="354">
+                <instance type="Sprite5" uid="777">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3228,7 +3228,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="355">
+                <instance type="Sprite11" uid="778">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3257,7 +3257,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="356">
+                <instance type="Sprite8" uid="779">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3279,7 +3279,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="357">
+                <instance type="Sprite5" uid="780">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3301,7 +3301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="358">
+                <instance type="Sprite27" uid="781">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3323,7 +3323,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="359">
+                <instance type="Sprite27" uid="782">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3345,7 +3345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="360">
+                <instance type="Sprite27" uid="783">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3367,7 +3367,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="361">
+                <instance type="Sprite27" uid="784">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3389,7 +3389,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="362">
+                <instance type="Sprite27" uid="785">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3411,7 +3411,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="363">
+                <instance type="Sprite8" uid="786">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3433,7 +3433,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="364">
+                <instance type="Sprite27" uid="787">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3455,7 +3455,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="365">
+                <instance type="Sprite5" uid="788">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3477,7 +3477,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="366">
+                <instance type="Sprite27" uid="789">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3499,7 +3499,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="367">
+                <instance type="Sprite27" uid="790">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3521,7 +3521,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="368">
+                <instance type="Sprite27" uid="791">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3543,7 +3543,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="369">
+                <instance type="Sprite27" uid="792">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3565,7 +3565,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="370">
+                <instance type="Sprite27" uid="793">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3587,7 +3587,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="371">
+                <instance type="Sprite27" uid="794">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3609,7 +3609,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="372">
+                <instance type="Sprite27" uid="795">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3631,7 +3631,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="373">
+                <instance type="Sprite8" uid="796">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3653,7 +3653,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="374">
+                <instance type="Sprite27" uid="797">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3675,7 +3675,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="375">
+                <instance type="Sprite8" uid="798">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3697,7 +3697,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="376">
+                <instance type="Sprite11" uid="799">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3726,7 +3726,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="377">
+                <instance type="Sprite11" uid="800">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3755,7 +3755,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite11" uid="378">
+                <instance type="Sprite11" uid="801">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3784,7 +3784,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite29" uid="380">
+                <instance type="Sprite29" uid="802">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3806,7 +3806,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="381">
+                <instance type="Sprite27" uid="803">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3828,7 +3828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="382">
+                <instance type="Sprite27" uid="804">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3850,7 +3850,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="383">
+                <instance type="Sprite27" uid="805">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3872,7 +3872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="384">
+                <instance type="Sprite27" uid="806">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3894,7 +3894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="385">
+                <instance type="Sprite27" uid="807">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3916,7 +3916,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="386">
+                <instance type="Sprite27" uid="808">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3938,7 +3938,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="387">
+                <instance type="Sprite8" uid="809">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3960,7 +3960,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="388">
+                <instance type="Sprite8" uid="810">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3982,7 +3982,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="389">
+                <instance type="Sprite27" uid="811">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4004,7 +4004,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="390">
+                <instance type="Sprite27" uid="812">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4026,7 +4026,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="391">
+                <instance type="Sprite27" uid="813">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4048,7 +4048,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="392">
+                <instance type="Sprite5" uid="814">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4070,7 +4070,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="393">
+                <instance type="Sprite5" uid="815">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4092,7 +4092,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="394">
+                <instance type="Sprite5" uid="816">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4114,7 +4114,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="395">
+                <instance type="Sprite27" uid="817">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4136,7 +4136,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite27" uid="396">
+                <instance type="Sprite27" uid="818">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4158,52 +4158,10 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ProgressBarTankbase" uid="871">
-                    <properties>
-                        <value>0</value>
-                        <maximum>100</maximum>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>63</x>
-                        <y>-48</y>
-                        <z>0</z>
-                        <width>58</width>
-                        <height>12</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-                <instance type="ProgressBarEnemy" uid="872">
-                    <properties>
-                        <value>0</value>
-                        <maximum>100</maximum>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>203</x>
-                        <y>-48</y>
-                        <z>0</z>
-                        <width>58</width>
-                        <height>12</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
-        <layer name="Bases" sid="2063381671449012">
+        <layer name="Bases" sid="651562286944159">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -4219,7 +4177,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Tank1Base" uid="1">
+                <instance type="Tank1Base" uid="819">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4262,7 +4220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="3">
+                <instance type="Tank1Base" uid="820">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4305,7 +4263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="30">
+                <instance type="Tank1Base" uid="821">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4348,7 +4306,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="31">
+                <instance type="Tank1Base" uid="822">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4391,7 +4349,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="74">
+                <instance type="Tank1Base" uid="823">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4434,7 +4392,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="75">
+                <instance type="Tank1Base" uid="824">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4444,7 +4402,7 @@
                     <instance-variables>
                         <IsSelected>false</IsSelected>
                         <TurretUID>0</TurretUID>
-                        <Health>200</Health>
+                        <Health>100</Health>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Pathfinding">
@@ -4477,7 +4435,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="76">
+                <instance type="Tank1Base" uid="825">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4520,7 +4478,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Base" uid="77">
+                <instance type="Tank1Base" uid="826">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4563,7 +4521,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base2" uid="379">
+                <instance type="Enemy1Base2" uid="827">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4623,7 +4581,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Turrets" sid="4383926046034949">
+        <layer name="Turrets" sid="492694520100820">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -4639,7 +4597,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Tank1Turret" uid="5">
+                <instance type="Tank1Turret" uid="828">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4680,7 +4638,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="UnitSelectionBox" uid="8">
+                <instance type="UnitSelectionBox" uid="829">
                     <properties>
                         <left-margin>6</left-margin>
                         <right-margin>6</right-margin>
@@ -4706,7 +4664,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="9">
+                <instance type="Tank1Turret" uid="830">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4747,7 +4705,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="32">
+                <instance type="Tank1Turret" uid="831">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4788,7 +4746,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="33">
+                <instance type="Tank1Turret" uid="832">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4829,7 +4787,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="44">
+                <instance type="Enemy1Base" uid="833">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4873,7 +4831,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="45">
+                <instance type="Enemy1Turret" uid="834">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4914,7 +4872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Projectile" uid="66">
+                <instance type="Tank1Projectile" uid="835">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4962,7 +4920,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="82">
+                <instance type="Tank1Turret" uid="836">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5003,7 +4961,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="83">
+                <instance type="Tank1Turret" uid="837">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5032,8 +4990,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>238.901550293</x>
-                        <y>392.148040771</y>
+                        <x>237</x>
+                        <y>395</y>
                         <z>0</z>
                         <width>54.857143402</width>
                         <height>27</height>
@@ -5044,7 +5002,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="84">
+                <instance type="Tank1Turret" uid="838">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5085,7 +5043,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tank1Turret" uid="85">
+                <instance type="Tank1Turret" uid="839">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5126,7 +5084,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="397">
+                <instance type="Enemy1Base" uid="840">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5170,7 +5128,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="398">
+                <instance type="Enemy1Turret" uid="841">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5211,7 +5169,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="399">
+                <instance type="Enemy1Base" uid="842">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5255,7 +5213,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="400">
+                <instance type="Enemy1Turret" uid="843">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5296,7 +5254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="401">
+                <instance type="Enemy1Base" uid="844">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5340,7 +5298,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="402">
+                <instance type="Enemy1Turret" uid="845">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5381,7 +5339,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="403">
+                <instance type="Enemy1Base" uid="846">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5425,7 +5383,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="404">
+                <instance type="Enemy1Turret" uid="847">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5466,7 +5424,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="405">
+                <instance type="Enemy1Base" uid="848">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5510,7 +5468,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="406">
+                <instance type="Enemy1Turret" uid="849">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5551,7 +5509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="407">
+                <instance type="Enemy1Base" uid="850">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5595,7 +5553,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="408">
+                <instance type="Enemy1Turret" uid="851">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5636,7 +5594,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="409">
+                <instance type="Enemy1Base" uid="852">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5680,7 +5638,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="410">
+                <instance type="Enemy1Turret" uid="853">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5721,7 +5679,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="411">
+                <instance type="Enemy1Base" uid="854">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5765,7 +5723,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="412">
+                <instance type="Enemy1Turret" uid="855">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5806,7 +5764,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="413">
+                <instance type="Enemy1Base" uid="856">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5850,7 +5808,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="414">
+                <instance type="Enemy1Turret" uid="857">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5891,7 +5849,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Base" uid="415">
+                <instance type="Enemy1Base" uid="858">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5935,7 +5893,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret" uid="416">
+                <instance type="Enemy1Turret" uid="859">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5976,7 +5934,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Turret2" uid="625">
+                <instance type="Enemy1Turret2" uid="860">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6020,7 +5978,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Projectiles" sid="3297799836817945">
+        <layer name="Projectiles" sid="920140746523209">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -6036,7 +5994,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BigExplosion" uid="67">
+                <instance type="BigExplosion" uid="861">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6058,7 +6016,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Enemy1Projectile" uid="68">
+                <instance type="Enemy1Projectile" uid="862">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6109,7 +6067,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Selection box" sid="1151396176381174">
+        <layer name="Selection box" sid="663003641540094">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -6125,7 +6083,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SelectionBox" uid="2">
+                <instance type="SelectionBox" uid="863">
                     <properties>
                         <left-margin>6</left-margin>
                         <right-margin>6</right-margin>
@@ -6151,7 +6109,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SmallExplosion" uid="69">
+                <instance type="SmallExplosion" uid="864">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6173,7 +6131,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TurretFireParticles" uid="70">
+                <instance type="TurretFireParticles" uid="865">
                     <properties>
                         <rate>10</rate>
                         <spray-cone>20</spray-cone>
@@ -6212,7 +6170,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="71">
+                <instance type="Sprite" uid="866">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6237,7 +6195,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="UI" sid="2542039829752438">
+        <layer name="UI" sid="327787296841993">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -6253,7 +6211,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Map" uid="95">
+                <instance type="Map" uid="867">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6275,7 +6233,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MapFrame" uid="98">
+                <instance type="MapFrame" uid="868">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6297,7 +6255,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite14" uid="100">
+                <instance type="Sprite14" uid="869">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6319,7 +6277,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite15" uid="101">
+                <instance type="Sprite15" uid="870">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

@@ -13,6 +13,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout active="1" order="0">Forest_lv1</layout>
         <layout order="1">Town_lv5</layout>
         <layout order="3">dungeon_lv100</layout>
+        <layout order="4">Town_lv4</layout>
         <event-sheet order="2">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
@@ -21,17 +22,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1">
+    <families-expanded root="0">
         <family expanded="0" name="FriendlyBases" />
         <family expanded="0" name="FriendlyTurrets" />
         <family expanded="1" name="EnemyBases" />
-        <family expanded="0" name="EnemyTurrets" />
+        <family expanded="1" name="EnemyTurrets" />
         <family expanded="0" name="FriendlyProjectiles" />
         <family expanded="0" name="EnemyProjectiles" />
         <family expanded="0" name="FriendlyBases2" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Map 1/" />
         <folder expanded="0" path="object-folder/Enemy/" />
         <folder expanded="1" path="layout-folder/" />

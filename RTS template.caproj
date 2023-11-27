@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -1165,6 +1166,12 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\SANI\Desktop\Kuliah\Game Dev\Tugas Besar\TILES MAP\top-down-collection-pack\Topview Fantasy Patreon Collection\single-dungeon-crawler\PNG\dungeon-tileset.png" />
         </object-type>
+        <object-type name="ProgressBarTankbase" sid="886962821873000">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="ProgressBarEnemy" sid="735614117070991">
+            <plugin id="progressbar" />
+        </object-type>
     </object-folder>
     <families>
         <family name="FriendlyBases" plugin-id="Sprite" sid="7520132423419644">
@@ -1282,6 +1289,7 @@
     </families>
     <layout-folder>
         <layout>Forest_lv1.xml</layout>
+        <layout>Town_lv4.xml</layout>
         <layout>Town_lv5.xml</layout>
         <layout>dungeon_lv100.xml</layout>
     </layout-folder>

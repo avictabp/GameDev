@@ -115,10 +115,10 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="334067961309842" type="Map">
-                            <param id="0" name="X">720 +80</param>
+                            <param id="0" name="X">700</param>
                         </action>
                         <action id="-2" name="Set Y" sid="169168696565031" type="Map">
-                            <param id="0" name="Y">0</param>
+                            <param id="0" name="Y">80</param>
                         </action>
                         <action id="-2" name="Set Y" sid="734507523424104" type="MapFrame">
                             <param id="0" name="Y">Map.Y</param>
@@ -824,5 +824,79 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="211649210052216">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="676362312275074" type="System">
+                    <param id="0" name="First value">ProgressBarTankbase.Count</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">Tank1Base.Count</param>
+                </condition>
+                <condition id="-12" name="Repeat" sid="243583805932084" type="System">
+                    <param id="0" name="Count">Tank1Base.Count</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="156576362331854" type="System">
+                    <param id="0" name="Object to create">ProgressBarTankbase</param>
+                    <param id="1" name="Layer">&quot;Bases&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="483565136389331" type="System">
+                    <param id="0" name="Object to create">Sprite15</param>
+                    <param id="1" name="Layer">&quot;UI&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="513119953061322">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="309942619243858" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="135793764824496" type="ProgressBarTankbase">
+                    <param id="0" name="X">Tank1Base.X - 30</param>
+                    <param id="1" name="Y">Tank1Base.Y-35</param>
+                </action>
+                <action id="3" name="Set progress" sid="537864503676042" type="ProgressBarTankbase">
+                    <param id="0" name="Value">Tank1Base.Health</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="331258685699221">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="834377768893454" type="System">
+                    <param id="0" name="First value">ProgressBarTankbase.Count</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">Enemy1Base.Count</param>
+                </condition>
+                <condition id="-12" name="Repeat" sid="953274095669675" type="System">
+                    <param id="0" name="Count">Enemy1Base.Count</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="932195368281716" type="System">
+                    <param id="0" name="Object to create">ProgressBarEnemy</param>
+                    <param id="1" name="Layer">&quot;Bases&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="738614777752032">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="349122725326198" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="136069698917692" type="ProgressBarEnemy">
+                    <param id="0" name="X">Enemy1Base.X - 30</param>
+                    <param id="1" name="Y">Enemy1Base.Y-35</param>
+                </action>
+                <action id="3" name="Set progress" sid="496178933406782" type="ProgressBarEnemy">
+                    <param id="0" name="Value">Enemy1Base.Health</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
